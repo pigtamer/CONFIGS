@@ -1,0 +1,41 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.shellArgs.windows": [
+        "%comspec% /k",
+        "H:\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat"
+    ],
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.smoothScrolling": true,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "matlab.matlabpath": "H:\\MATLAB\\R2017b\\bin\\matlab.exe",
+    "matlab.mlintpath": "H:\\MATLAB\\R2017b\\bin\\win64\\mlint.exe",
+    "workbench.panel.location": "bottom",
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "latex-workshop.latex.toolchain": [
+        {
+          "command": "xelatex",
+          "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "%DOC%"
+          ]
+        }
+    ],
+    "latex-workshop.latex.autoBuild.onSave.enabled": false,
+    "git.path": "H:/Git/bin/git.exe",
+    "explorer.confirmDelete": false,
+    "C_Cpp.clang_format_style": "LLVM"
+}
